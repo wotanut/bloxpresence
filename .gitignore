@@ -2,3 +2,4 @@
 .vscode
 /git_ignore_stuff
 .gitignore
+.DS_Store

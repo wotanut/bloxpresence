@@ -1,9 +1,11 @@
-<div style="text-align: center;">
-<h1>BLOXPRESENCE</h1>
-<src="https://github.com/wotanut/bloxpresence/blob/main/screenshots/uploads/bloxpresence-2.png" alt="bloxpresence" width="250"> </img>
+<!-- <div style="text-align: center;"> -->
+<h1 align="center">
+    <img src="https://github.com/wotanut/bloxpresence/blob/main/screenshots/uploads/bloxpresence-2.png" width="250"></img>
+    <br>
+</h1>
 
+<div style="text-align: center;">
 bloxpresence is a roblox-discord rich presence written in python that can show what roblox game you are playing, or editing in studio. It requires no setup for game developers and minimal setup for users, it is compatible with macOS, windows and Linux.
-</div>
 <br>
 <br>
 <div style="text-align: center;">

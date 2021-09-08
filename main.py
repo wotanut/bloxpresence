@@ -42,7 +42,7 @@ while running == True:
         RPC = Presence(client_id="882181964378030100")
         RPC.connect()
         start_time = time.time()
-        RPC.update(pid=PID,details=req["game"],start=start_time,large_image="roblox",large_text="ROBLOX",small_image="game", small_text="playing",buttons=[{"label":"Join via profile", "url":f"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}])
+        RPC.update(pid=PID,details=req["game"],start=start_time,large_image="roblox",large_text="ROBLOX",small_image="game", small_text="playing",buttons=[{"label":"Join via profile", "url":f"https://www.roblox.com/users/{str(ID)}/profile"}])
         print("loaded playing rp")
     elif req["userPresenceType"] == 1 and 1 not in previous:
         previous.pop(0)

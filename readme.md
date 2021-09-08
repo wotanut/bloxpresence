@@ -1,7 +1,8 @@
 <div style="text-align: center;">
-<h1>PYPRESENCE</h1>
+<h1>BLOXPRESENCE</h1>
+![bloxpresence logo](../screenshots/uploads/bloxpresence-2.png)
 
-pypresence is a roblox-discord rich presence written in python that can show what roblox game you are playing, or editing in studio. It requires no setup for game developers and minimal setup for users, it is compatible with macOS, windows and Linux.
+bloxpresence is a roblox-discord rich presence written in python that can show what roblox game you are playing, or editing in studio. It requires no setup for game developers and minimal setup for users, it is compatible with macOS, windows and Linux.
 </div>
 <br>
 <br>
@@ -17,6 +18,6 @@ pypresence is a roblox-discord rich presence written in python that can show wha
 <br>
 <div style="text-align: center;">
 <h2>Setup</h2>
-<p>Assuming you are in the pypresence directory please run python3 setup.py and follow the prompts, you will need your roblox username and userID, if you do not know how to get those please <a href="../screenshots/required_information">read this article</a></p>
+<p>Assuming you are in the bloxpresence directory please run python3 setup.py and follow the prompts, you will need your roblox username and userID, if you do not know how to get those please <a href="../screenshots/required_information">read this article</a></p>
 <p> To change an account, please delete the file marked config.json and rerun the setup procedure.
 </div>

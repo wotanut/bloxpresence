@@ -18,7 +18,7 @@ print("-------------------------------------")
 ID = input("2/3 Please enter your ROBLOX ID ")
 print("-------------------------------------")
 
-request = requests.get("https://pypresence.wotanutt.repl.co/get_code",headers={"userID":ID,"userName":username})
+request = requests.get("https://bloxpresenceserver.herokuapp.com/get_code",headers={"userID":ID,"userName":username})
 #print(request.json())
 #print(request)
 to_json = request.json()
@@ -28,7 +28,7 @@ sus = to_json["code"] #lmao i'm so unimagintive with my variable names
 print(f"3/3 please paste this code into your ROBLOX about me section: {sus}")
 
 
-request = requests.get("https://pypresence.wotanutt.repl.co/register",headers={"userID":ID,"userName":username,"code":to_json["code"]})
+request = requests.get("https://bloxpresenceserver.herokuapp.com/register",headers={"userID":ID,"userName":username,"code":to_json["code"]})
 json_format = request.json()
 try:
     print(json_format["error"])

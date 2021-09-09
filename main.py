@@ -29,7 +29,7 @@ PID = 2
 
 while running == True:
 
-    request = requests.get("https://pypresence.wotanutt.repl.co/api",headers={"userID":ID,"code":code})
+    request = requests.get("https://bloxpresenceserver.herokuapp.com/api",headers={"userID":ID,"code":code})
     print(request.json())
     req = request.json()
 

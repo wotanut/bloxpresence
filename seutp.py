@@ -17,27 +17,17 @@ username = input("1/3 Please enter your ROBLOX username ")
 print("-------------------------------------")
 ID = input("2/3 Please enter your ROBLOX ID ")
 print("-------------------------------------")
+code = input("3/3 Please join the verification game and enter the code into the terminal below ")
 
-request = requests.get("https://bloxpresenceserver.herokuapp.com/get_code",headers={"userID":ID,"userName":username})
-#print(request.json())
-#print(request)
+request = requests.get("https://bloxpresenceserver.herokuapp.com/check_code",headers={"userID":ID,"userName":username,"code":code})
+print(request)
+print(request.json())
 to_json = request.json()
 to_json["code"]
 sus = to_json["code"] #lmao i'm so unimagintive with my variable names
 
-print(f"3/3 please paste this code into your ROBLOX about me section: {sus}")
-
-
-request = requests.get("https://bloxpresenceserver.herokuapp.com/register",headers={"userID":ID,"userName":username,"code":to_json["code"]})
-json_format = request.json()
-try:
-    print(json_format["error"])
-except:
-    print("setup complete, you may now run the rich presence")
-
-
 with open('config.json', 'w') as f:
-    information = [{'username': json_format["userName"], 'ID': json_format["userID"], "code": json_format["code"]}]
+    information = [{'username': to_json["userName"], 'ID': to_json["userID"], "code": to_json["code"]}]
     jsonString = json.dumps(information, indent=4)
     f.write(jsonString)
     f.close()

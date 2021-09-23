@@ -30,4 +30,5 @@
     <h2> Important Links </h2>
     <li> <a href="https://discord.gg/3QGttsWugd">Support Server</a>
     <li> <a href="https://www.roblox.com/users/2853604488/profile">ROBLOX bot</a>
+    <li> <a href="https://www.roblox.com/games/7440577443/bloxpresence-verification">Verification Game</a>
 </div>

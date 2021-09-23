@@ -23,7 +23,7 @@
 </div>
 <div style="text-align: center;">
     <h2>Setup</h2>
-    <p>Assuming you are in the bloxpresence directory please run python3 setup.py and follow the prompts, you will need your roblox username and userID, if you do not know how to get those please <a href="../screenshots/required_information">read this article</a></p>
+    <p>Assuming you are in the bloxpresence directory please run python3 setup.py and follow the prompts, you will need your roblox username and userID, if you do not know how to get those please <a href="../blob/main/screenshots/required_information.md">read this article</a></p>
     <p> To change an account, please delete the file marked config.json and rerun the setup procedure.
 </div>
 <div style="text-align: center;">

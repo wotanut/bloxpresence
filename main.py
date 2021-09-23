@@ -24,6 +24,8 @@ previous = [0] # set's a string for the previous presence, so we can compare if 
 RPC = Presence(client_id=client_id)
 RPC.connect()
 
+print("connected presence to discord")
+
 global PID
 PID = 2
 

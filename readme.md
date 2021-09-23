@@ -17,6 +17,7 @@
     <li> Python 3
     <li> Discord
     <li> <a href="https://pypi.org/project/pypresence/">pypresence</a>
+    <li> <a href="https://pypi.org/project/requests/">requests</a>
     <br>
     <br>
 </div>

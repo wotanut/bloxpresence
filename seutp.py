@@ -20,8 +20,6 @@ print("-------------------------------------")
 code = input("3/3 Please join the verification game and enter the code into the terminal below ")
 
 request = requests.get("https://bloxpresenceserver.herokuapp.com/check_code",headers={"userID":ID,"userName":username,"code":code})
-print(request)
-print(request.json())
 to_json = request.json()
 to_json["code"]
 sus = to_json["code"] #lmao i'm so unimagintive with my variable names
@@ -31,3 +29,7 @@ with open('config.json', 'w') as f:
     jsonString = json.dumps(information, indent=4)
     f.write(jsonString)
     f.close()
+
+print("Your presence has been succesfully set up, from now on please run pyhton main.py")
+cmd="python3 main.py"
+os.system(cmd)

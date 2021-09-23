@@ -14,8 +14,8 @@
 <div style="text-align: center;">
     <h2>Requirements<h2>
     <p>Please ensure you have the following installed:<p>
-    <li> Python 3
-    <li> Discord
+    <li> <a href="https://www.python.org/">Python 3</a>
+    <li> <a href="https://discord.com/">Discord</a>
     <li> <a href="https://pypi.org/project/pypresence/">pypresence</a>
     <li> <a href="https://pypi.org/project/requests/">requests</a>
     <br>

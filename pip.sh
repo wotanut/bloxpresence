@@ -1,2 +1,2 @@
-python -m pip install pypresence
-python -m pip install requests
+python3 -m pip install pypresence
+python3 -m pip install requests

@@ -16,8 +16,6 @@
     <p>Please ensure you have the following installed:<p>
     <li> <a href="https://www.python.org/">Python 3</a>
     <li> <a href="https://discord.com/">Discord</a>
-    <li> <a href="https://pypi.org/project/pypresence/">pypresence</a>
-    <li> <a href="https://pypi.org/project/requests/">requests</a>
     <br>
     <br>
 </div>

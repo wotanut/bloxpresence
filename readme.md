@@ -45,6 +45,15 @@
     <p>To get your roblox ID please <a href="../main/screenshots/required_information.md">read this article</a></p>
     <p> To change an account, please delete the file marked config.json and rerun the setup procedure.
 </div>
+</div>
+<div style="text-align: center;">
+    <h2>Stop running</h2>
+    <li>1. do ps aux, this will show you a list of all running background proccess
+    <li>2. look through all these process for one that says something similar to python3 main.py (or python main.py depending on your OS)
+    <li>3. copy the PID associated with it, it'll be a 4 digit number
+    <li>4. type kill and then that unique 4 digit number
+    <li>5. bloxpresence will stop running immediatly
+</div>
 <div style="text-align: center;">
     <h2> Important Links </h2>
     <li> <a href="https://discord.gg/3QGttsWugd">Support Server</a>

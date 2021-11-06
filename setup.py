@@ -30,6 +30,4 @@ with open('config.json', 'w') as f:
     f.write(jsonString)
     f.close()
 
-print("Your presence has been succesfully set up, from now on please run pyhton main.py")
-cmd="python3 main.py"
-os.system(cmd)
+print("Your presence has been succesfully set up, from now on please run nohup pyhton3 main.py &")

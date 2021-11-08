@@ -10,33 +10,34 @@ import requests
 from pypresence import Presence
 
 
-try:
-    with open('config.json') as f:
-        data = json.load(f)
-        ID = data[0]["ID"]
-        username = data[0]["username"]
-        code = data[0]["code"]
 
-    client_id = "882181964378030100"
+with open('config.json') as f:
+    data = json.load(f)
+    ID = data[0]["ID"]
+    username = data[0]["username"]
+    code = data[0]["code"]
 
-    running = True
+client_id = "882181964378030100"
 
-    previous = [0] # set's a string for the previous presence, so we can compare if they're stil in the same presence they were before
+running = True
 
-    RPC = Presence(client_id=client_id)
-    RPC.connect()
+previous = [0] # set's a string for the previous presence, so we can compare if they're stil in the same presence they were before
 
-    global PID
-    PID = 2
+RPC = Presence(client_id=client_id)
+RPC.connect()
 
-    while running == True:
+global PID
+PID = 2
 
-        try:
-            request = requests.get("https://bloxpresenceserver.herokuapp.com/api",headers={"userID":ID,"code":code})
-            req = request.json()
-        except:
-            pass
+while running == True:
 
+    try:
+        request = requests.get("https://bloxpresenceserver.herokuapp.com/api",headers={"userID":ID,"code":code})
+        req = request.json()
+    except:
+        pass
+
+    try:
         if req["userPresenceType"] == 2 and 2 not in previous:
             previous.pop(0)
             previous.append(2)
@@ -65,12 +66,13 @@ try:
             start_time = time.time()
             RPC.update(pid=3,details="developing",state=req["game"],start=start_time,large_image="studio",large_text="ROBLOX STUDIO",small_image="dev", small_text="developing")
 
-        elif req["userPresenceType"] == 0 and 0 not in previous:
+        elif req["userPresenceType"] == 0 and 0 in previous:
             previous.pop(0)
             previous.append(3)
             RPC.clear(pid=os.getpid())
+        else:
+            pass
+    except:
+        pass
 
-        time.sleep(15)
- except Exception as e:
-    print(e)
-    pass
+    time.sleep(15)

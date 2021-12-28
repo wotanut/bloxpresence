@@ -7,7 +7,7 @@ import os
 
 
 print("-------------------------------------")
-print("Thank you for installing pypresence")
+print("Thank you for installing bloxpresence")
 print("-------------------------------------")
 print("Before we continue, we need some")
 print("vital information. All information")

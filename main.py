@@ -35,7 +35,8 @@ while running == True:
         request = requests.get("https://bloxpresenceserver.herokuapp.com/api",headers={"userID":ID,"code":code})
         req = request.json()
     except:
-        pass
+        fake = {"userPresenceType" : 69,}
+        req = req.loads(fake)
 
     try:
         if req["userPresenceType"] == 2 and 2 not in previous:

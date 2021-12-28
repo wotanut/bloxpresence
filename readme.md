@@ -28,8 +28,9 @@
             <li>4. Press any key while in the windows & it should close
             <li>5. Run python <b>setup.py</b>
             <li>6. Follow the instructions in the terminal
-            <li>7. After this is done please run <b>nohup python main.py &</b> tbc
-            <li>8. Congrats, you have finished, you may close the terminal and play any game :D
+            <li>7. After this is done please run <b>python main.py</b>
+            <li>8. For further reading please read <a href="https://www.devdungeon.com/content/windows-run-script-startup/">how to run a windows file on startup</a> (please note the config.json file must be in the same directory as the main.py and setup.py file
+            <li>9. Congrats, you have finished, you may close the terminal and play any game :D
         <h3>Linux & MacOS</h3>
             <li>1. Open the terminal and go to your directory where you saved <b>bloxpresence</b> using the <a href="https://www.howtogeek.com/666127/how-to-use-the-cd-command-on-linux/">cd command</a>
             <li>2. After that, use <b>bash pip.sh</b> to start the file

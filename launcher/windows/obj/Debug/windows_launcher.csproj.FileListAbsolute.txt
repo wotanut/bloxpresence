@@ -1,0 +1,7 @@
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\bin\Debug\windows_launcher.exe.config
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\bin\Debug\windows_launcher.exe
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\bin\Debug\windows_launcher.pdb
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\obj\Debug\windows_launcher.csprojAssemblyReference.cache
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\obj\Debug\windows_launcher.csproj.CoreCompileInputs.cache
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\obj\Debug\windows_launcher.exe
+C:\Users\blewittsh\Downloads\bloxpresence-main\launcher\windows_launcher\obj\Debug\windows_launcher.pdb
